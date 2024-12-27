@@ -1,12 +1,10 @@
 # Kiwi Browser
 
-![automatic build of apk](https://github.com/kiwibrowser/src/workflows/automatic%20build%20of%20apk/badge.svg)
-
 ## Overview
 
-[Kiwi Browser](https://kiwibrowser.com/) is a fully open-source web browser for Android.
+[BS Browser] is a fully open-source web browser for Android.
 
-Kiwi is based on Chromium. Easily switch to Kiwi without having to painstakingly learn a new interface or break your existing browsing habits.
+BS is based on Chromium. Easily switch to Kiwi without having to painstakingly learn a new interface or break your existing browsing habits.
 
 Among other functionalities, Kiwi Browser supports:
 
@@ -18,45 +16,6 @@ It also includes performance improvements (partial rasterization of tiles, etc)
 The browser is licensed under the same license as Chromium, which means that you are allowed to create derivatives of the browser.
 
 Make sure to properly attribute the code to this repository (don't just replace with your name)
-
-## Table of contents
-
-- [Timeline](#timeline)
-- [Contributing](#contributing)
-- [Modifying](#modifying)
-- [Building](#building)
-  - [Getting the source-code and environment](#getting-the-source-code-and-environment)
-  - [Setting-up dependencies](#setting-up-dependencies)
-  - [Preparing a signing key](#preparing-a-signing-key)
-  - [Configuring the build type and platform](#configuring-the-build-type-and-platform)
-  - [Preparing the first build](#preparing-the-first-build)
-  - [Compiling Kiwi Browser](#compiling-kiwi-browser)
-  - [Investigating crashes](#investigating-crashes)
-  - [Remote debugging](#remote-debugging)
-  - [Optimizing binary size](#optimizing-binary-size)
-- [Roadmap](#roadmap)
-- [Additional help](#additional-help)
-
-## Timeline
-
-- 15 April 2018 - First Kiwi Browser release.
-
-- 15 April 2019 - Kiwi Browser gets support for Chrome Extensions.
-
-- 17 April 2020 - Kiwi Browser goes fully open-source.
-
-
-This code is up-to-date and is matching the build on the Play Store.
-
-The new builds are done from the open-source edition directly to the [Play Store](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser).
-
-There are thousands of hours of work in this repository and thousands of files changed.
-
-## Contributing
-
-Contributions are welcome and encouraged.
-
-If you want your code to be integrated into Kiwi, open a merge request, I (and/or a member of the community) can review the code with you and push it to the Play Store.
 
 ## Modifying
 
@@ -73,7 +32,7 @@ You can use a virtual machine, an AWS VM, or a Google Cloud VM.
 
 ### Getting the source-code and environment
 
-To build Kiwi Browser you can directly clone the repository, as we have packed all dependencies already:
+To build BS Browser you can directly clone the repository, as we have packed all dependencies already:
 
 In ~ (your home directory) run:
 
@@ -301,9 +260,3 @@ If there is an issue or bug that you want to be included to Kiwi, please open an
 ## Additional help
 
 You can ask for extra help in our Discord server:
-
-<a href="https://discord.gg/XyMppQq"> <img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" height="50"></a>
-
-Have fun with Kiwi!
-
-Arnaud.
