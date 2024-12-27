@@ -1,12 +1,12 @@
-# Kiwi Browser
+# BS Browser
 
 ## Overview
 
 [BS Browser] is a fully open-source web browser for Android.
 
-BS is based on Chromium. Easily switch to Kiwi without having to painstakingly learn a new interface or break your existing browsing habits.
+BS is based on Chromium. Easily switch to BS without having to painstakingly learn a new interface or break your existing browsing habits.
 
-Among other functionalities, Kiwi Browser supports:
+Among other functionalities, BS Browser supports:
 
  - Night Mode (another implementation than Chromium)
  - Support for Chrome Extensions
@@ -19,7 +19,7 @@ Make sure to properly attribute the code to this repository (don't just replace 
 
 ## Modifying
 
-If you create your own browser or a mod, make sure to change the browser name and icon in `chrome/android/java/res_chromium/values/channel_constants.xml` and translation strings (search and replace Kiwi in all `*.xtb`, all `*.grd` and all `*.grdp` files).
+If you create your own browser or a mod, make sure to change the browser name and icon in `chrome/android/java/res_chromium/values/channel_constants.xml` and translation strings (search and replace BS in all `*.xtb`, all `*.grd` and all `*.grdp` files).
 When replacing the app icon, make sure to add the new icon files in their respective `chrome/android/java/res/mipmap` folders(mdpi, hdpi etc) and also update the AndroidManifest.xml.
 
 ## Building
@@ -57,17 +57,17 @@ This will give you access to one utility called gclient (as in "Google client")
 Create a directory called ~/chromium/, and in ~/chromium/ run:
 
 ```bash
-git clone https://github.com/kiwibrowser/dependencies.git .cipd
+git clone https://github.com/BS-Browser/dependencies.git .cipd
 cp ~/chromium/.cipd/.gclient ~/chromium/
 cp ~/chromium/.cipd/.gclient_entries ~/chromium/
-git clone https://github.com/kiwibrowser/src.git
+git clone https://github.com/BS-Bbrowser/src.git
 ```
 
-At this stage, in ~/chromium/ you will have the .cipd folder, and a folder with the Kiwi Browser source-code called src.
+At this stage, in ~/chromium/ you will have the .cipd folder, and a folder with the BS Browser source-code called src.
 
 ### Setting up dependencies
 
-To be able to build Kiwi Browser, you need python and OpenJDK (OpenJDK to create Java bindings for Android):
+To be able to build BS Browser, you need python and OpenJDK (OpenJDK to create Java bindings for Android):
 
 ```bash
 sudo apt-get update
